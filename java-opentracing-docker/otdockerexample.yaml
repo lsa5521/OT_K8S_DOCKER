@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: ot-demo
+  labels:
+    purpose: demonstrate-opentracing
+spec:
+  containers:
+  - name: otexample
+    imagePullPolicy: Never
+    image: otexample_image:latest
+    command: []
+    args: ["lesson05.solution.Formatter", "sergey", "99f9848e8fd25a9e:99f9848e8fd25a9e:0:1"]
+  restartPolicy: Never

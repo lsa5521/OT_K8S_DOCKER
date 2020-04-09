@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="github.lsa5521.k8scontroller.AppTest" time="0.011" tests="1" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="gopherProxySet" value="false"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="sun.cpu.isalist" value=""/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/u01/workspace/KUBERNETES-CLIENT/k8scontroller/target/test-classes:/u01/workspace/KUBERNETES-CLIENT/k8scontroller/target/classes:/Users/slinetsk/.m2/repository/io/kubernetes/client-java/7.0.0/client-java-7.0.0.jar:/Users/slinetsk/.m2/repository/io/kubernetes/client-java-api/7.0.0/client-java-api-7.0.0.jar:/Users/slinetsk/.m2/repository/io/sundr/builder-annotations/0.19.2/builder-annotations-0.19.2.jar:/Users/slinetsk/.m2/repository/io/sundr/sundr-core/0.19.2/sundr-core-0.19.2.jar:/Users/slinetsk/.m2/repository/io/sundr/sundr-codegen/0.19.2/sundr-codegen-0.19.2.jar:/Users/slinetsk/.m2/repository/io/sundr/resourcecify-annotations/0.19.2/resourcecify-annotations-0.19.2.jar:/Users/slinetsk/.m2/repository/javax/annotation/javax.annotation-api/1.3.2/javax.annotation-api-1.3.2.jar:/Users/slinetsk/.m2/repository/io/swagger/swagger-annotations/1.5.22/swagger-annotations-1.5.22.jar:/Users/slinetsk/.m2/repository/com/squareup/okhttp3/okhttp/3.14.3/okhttp-3.14.3.jar:/Users/slinetsk/.m2/repository/com/squareup/okio/okio/1.17.2/okio-1.17.2.jar:/Users/slinetsk/.m2/repository/com/squareup/okhttp3/logging-interceptor/3.14.3/logging-interceptor-3.14.3.jar:/Users/slinetsk/.m2/repository/com/google/code/gson/gson/2.8.0/gson-2.8.0.jar:/Users/slinetsk/.m2/repository/io/gsonfire/gson-fire/1.8.3/gson-fire-1.8.3.jar:/Users/slinetsk/.m2/repository/joda-time/joda-time/2.9.3/joda-time-2.9.3.jar:/Users/slinetsk/.m2/repository/org/joda/joda-convert/1.2/joda-convert-1.2.jar:/Users/slinetsk/.m2/repository/io/kubernetes/client-java-proto/7.0.0/client-java-proto-7.0.0.jar:/Users/slinetsk/.m2/repository/org/yaml/snakeyaml/1.25/snakeyaml-1.25.jar:/Users/slinetsk/.m2/repository/commons-codec/commons-codec/1.11/commons-codec-1.11.jar:/Users/slinetsk/.m2/repository/org/apache/commons/commons-compress/1.19/commons-compress-1.19.jar:/Users/slinetsk/.m2/repository/org/apache/commons/commons-lang3/3.7/commons-lang3-3.7.jar:/Users/slinetsk/.m2/repository/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar:/Users/slinetsk/.m2/repository/org/bouncycastle/bcprov-ext-jdk15on/1.61/bcprov-ext-jdk15on-1.61.jar:/Users/slinetsk/.m2/repository/org/bouncycastle/bcpkix-jdk15on/1.61/bcpkix-jdk15on-1.61.jar:/Users/slinetsk/.m2/repository/org/bouncycastle/bcprov-jdk15on/1.61/bcprov-jdk15on-1.61.jar:/Users/slinetsk/.m2/repository/com/google/protobuf/protobuf-java/3.4.0/protobuf-java-3.4.0.jar:/Users/slinetsk/.m2/repository/org/apache/commons/commons-collections4/4.1/commons-collections4-4.1.jar:/Users/slinetsk/.m2/repository/io/jaegertracing/jaeger-client/0.34.0/jaeger-client-0.34.0.jar:/Users/slinetsk/.m2/repository/io/jaegertracing/jaeger-thrift/0.34.0/jaeger-thrift-0.34.0.jar:/Users/slinetsk/.m2/repository/org/apache/thrift/libthrift/0.12.0/libthrift-0.12.0.jar:/Users/slinetsk/.m2/repository/io/jaegertracing/jaeger-core/0.34.0/jaeger-core-0.34.0.jar:/Users/slinetsk/.m2/repository/io/opentracing/opentracing-api/0.31.0/opentracing-api-0.31.0.jar:/Users/slinetsk/.m2/repository/io/opentracing/opentracing-util/0.31.0/opentracing-util-0.31.0.jar:/Users/slinetsk/.m2/repository/io/opentracing/opentracing-noop/0.31.0/opentracing-noop-0.31.0.jar:/Users/slinetsk/.m2/repository/io/jaegertracing/jaeger-tracerresolver/0.34.0/jaeger-tracerresolver-0.34.0.jar:/Users/slinetsk/.m2/repository/io/opentracing/contrib/opentracing-tracerresolver/0.1.5/opentracing-tracerresolver-0.1.5.jar:/Users/slinetsk/.m2/repository/com/google/guava/guava/23.0/guava-23.0.jar:/Users/slinetsk/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/Users/slinetsk/.m2/repository/com/google/errorprone/error_prone_annotations/2.0.18/error_prone_annotations-2.0.18.jar:/Users/slinetsk/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/Users/slinetsk/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/Users/slinetsk/.m2/repository/junit/junit/3.8.1/junit-3.8.1.jar:"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value=""/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk-11.0.6.jdk/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/u01/workspace/KUBERNETES-CLIENT/k8scontroller/target/surefire/surefirebooter6196662722082151798.jar /u01/workspace/KUBERNETES-CLIENT/k8scontroller/target/surefire 2020-04-09T12-53-10_766-jvmRun1 surefire4467893025346044267tmp surefire_013835482693533215567tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/u01/workspace/KUBERNETES-CLIENT/k8scontroller/target/test-classes:/u01/workspace/KUBERNETES-CLIENT/k8scontroller/target/classes:/Users/slinetsk/.m2/repository/io/kubernetes/client-java/7.0.0/client-java-7.0.0.jar:/Users/slinetsk/.m2/repository/io/kubernetes/client-java-api/7.0.0/client-java-api-7.0.0.jar:/Users/slinetsk/.m2/repository/io/sundr/builder-annotations/0.19.2/builder-annotations-0.19.2.jar:/Users/slinetsk/.m2/repository/io/sundr/sundr-core/0.19.2/sundr-core-0.19.2.jar:/Users/slinetsk/.m2/repository/io/sundr/sundr-codegen/0.19.2/sundr-codegen-0.19.2.jar:/Users/slinetsk/.m2/repository/io/sundr/resourcecify-annotations/0.19.2/resourcecify-annotations-0.19.2.jar:/Users/slinetsk/.m2/repository/javax/annotation/javax.annotation-api/1.3.2/javax.annotation-api-1.3.2.jar:/Users/slinetsk/.m2/repository/io/swagger/swagger-annotations/1.5.22/swagger-annotations-1.5.22.jar:/Users/slinetsk/.m2/repository/com/squareup/okhttp3/okhttp/3.14.3/okhttp-3.14.3.jar:/Users/slinetsk/.m2/repository/com/squareup/okio/okio/1.17.2/okio-1.17.2.jar:/Users/slinetsk/.m2/repository/com/squareup/okhttp3/logging-interceptor/3.14.3/logging-interceptor-3.14.3.jar:/Users/slinetsk/.m2/repository/com/google/code/gson/gson/2.8.0/gson-2.8.0.jar:/Users/slinetsk/.m2/repository/io/gsonfire/gson-fire/1.8.3/gson-fire-1.8.3.jar:/Users/slinetsk/.m2/repository/joda-time/joda-time/2.9.3/joda-time-2.9.3.jar:/Users/slinetsk/.m2/repository/org/joda/joda-convert/1.2/joda-convert-1.2.jar:/Users/slinetsk/.m2/repository/io/kubernetes/client-java-proto/7.0.0/client-java-proto-7.0.0.jar:/Users/slinetsk/.m2/repository/org/yaml/snakeyaml/1.25/snakeyaml-1.25.jar:/Users/slinetsk/.m2/repository/commons-codec/commons-codec/1.11/commons-codec-1.11.jar:/Users/slinetsk/.m2/repository/org/apache/commons/commons-compress/1.19/commons-compress-1.19.jar:/Users/slinetsk/.m2/repository/org/apache/commons/commons-lang3/3.7/commons-lang3-3.7.jar:/Users/slinetsk/.m2/repository/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar:/Users/slinetsk/.m2/repository/org/bouncycastle/bcprov-ext-jdk15on/1.61/bcprov-ext-jdk15on-1.61.jar:/Users/slinetsk/.m2/repository/org/bouncycastle/bcpkix-jdk15on/1.61/bcpkix-jdk15on-1.61.jar:/Users/slinetsk/.m2/repository/org/bouncycastle/bcprov-jdk15on/1.61/bcprov-jdk15on-1.61.jar:/Users/slinetsk/.m2/repository/com/google/protobuf/protobuf-java/3.4.0/protobuf-java-3.4.0.jar:/Users/slinetsk/.m2/repository/org/apache/commons/commons-collections4/4.1/commons-collections4-4.1.jar:/Users/slinetsk/.m2/repository/io/jaegertracing/jaeger-client/0.34.0/jaeger-client-0.34.0.jar:/Users/slinetsk/.m2/repository/io/jaegertracing/jaeger-thrift/0.34.0/jaeger-thrift-0.34.0.jar:/Users/slinetsk/.m2/repository/org/apache/thrift/libthrift/0.12.0/libthrift-0.12.0.jar:/Users/slinetsk/.m2/repository/io/jaegertracing/jaeger-core/0.34.0/jaeger-core-0.34.0.jar:/Users/slinetsk/.m2/repository/io/opentracing/opentracing-api/0.31.0/opentracing-api-0.31.0.jar:/Users/slinetsk/.m2/repository/io/opentracing/opentracing-util/0.31.0/opentracing-util-0.31.0.jar:/Users/slinetsk/.m2/repository/io/opentracing/opentracing-noop/0.31.0/opentracing-noop-0.31.0.jar:/Users/slinetsk/.m2/repository/io/jaegertracing/jaeger-tracerresolver/0.34.0/jaeger-tracerresolver-0.34.0.jar:/Users/slinetsk/.m2/repository/io/opentracing/contrib/opentracing-tracerresolver/0.1.5/opentracing-tracerresolver-0.1.5.jar:/Users/slinetsk/.m2/repository/com/google/guava/guava/23.0/guava-23.0.jar:/Users/slinetsk/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/Users/slinetsk/.m2/repository/com/google/errorprone/error_prone_annotations/2.0.18/error_prone_annotations-2.0.18.jar:/Users/slinetsk/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/Users/slinetsk/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/Users/slinetsk/.m2/repository/junit/junit/3.8.1/junit-3.8.1.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/slinetsk"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2020-01-14"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk-11.0.6.jdk/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/u01/workspace/KUBERNETES-CLIENT/k8scontroller"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="/u01/workspace/KUBERNETES-CLIENT/k8scontroller/target/surefire/surefirebooter6196662722082151798.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="11.0.6+8-LTS"/>
+    <property name="user.name" value="slinetsk"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="10.14.4"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="18.9"/>
+    <property name="localRepository" value="/Users/slinetsk/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/var/folders/b6/dw35w40j5cg0y5ky_8prcgsm0000gn/T/"/>
+    <property name="java.version" value="11.0.6"/>
+    <property name="user.dir" value="/u01/workspace/KUBERNETES-CLIENT/k8scontroller"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.library.path" value="/Users/slinetsk/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vm.version" value="11.0.6+8-LTS"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="java.class.version" value="55.0"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+  </properties>
+  <testcase name="testApp" classname="github.lsa5521.k8scontroller.AppTest" time="0.002"/>
+</testsuite>
