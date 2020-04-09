@@ -57,7 +57,7 @@ public class K8sController {
         //catch(io.kubernetes.client.openapi.ApiException e)
         catch(Exception e)
         {
-        	System.out.println(e);
+        	System.out.println("Exception during POD creation " + e.getMessage());
         }
     }
     
@@ -84,9 +84,9 @@ public class K8sController {
         this.api.createNamespacedPod("default", pod, null, null, null);
         }
         //catch(io.kubernetes.client.openapi.ApiException e)
-        catch(io.kubernetes.client.openapi.ApiException e)
+        catch(Exception e)
         {
-        	System.out.println(e);
+        	System.out.println("Exception during creation of POD "+ e.getMessage());
         }
     }
     
@@ -129,8 +129,9 @@ public class K8sController {
         	this.startFormaterPod(helloTo,childSpanCtxStr,diagnosticID);
         	//print log from the pod
         	try {
-				this.printLog("default","ot-demo-formater");
-			} catch (ApiException e) {
+        		Thread.sleep(5000);
+        		this.printLog("default","ot-demo-formater");
+			} catch (Exception e) {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
 			}
@@ -147,10 +148,12 @@ public class K8sController {
         	SpanContext childSpanCtx = scope.span().context();
         	String childSpanCtxStr = Tracing.contextAsString((JaegerSpanContext)childSpanCtx);
         	this.startPublisherPod(helloStr,childSpanCtxStr,diagnosticID);
+
         	//print log from the pod
         	try {
+                Thread.sleep(5000);
 				this.printLog("default","ot-demo-publisher");
-			} catch (ApiException e) {
+			} catch (Exception e) {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
 			}
@@ -168,16 +171,20 @@ public class K8sController {
         try
         {	
 	        V1Status deleteResult = api.deleteNamespacedPod("ot-demo-formater", "default", null, null, 0, false, null, null);
+	        Thread.sleep(5000);
 	        System.out.println(deleteResult);
+	        
         }
         catch (Exception e)
         {
         	System.out.println(" PODs do not exist");
         	System.out.println(e);
         }
+
         try
         {
 	        V1Status deleteResult1 = api.deleteNamespacedPod("ot-demo-publisher", "default", null, null, 0, false, null, null);
+	        Thread.sleep(5000);
 	        System.out.println(deleteResult1);
 
         }
