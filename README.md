@@ -9,7 +9,7 @@ To create the container with Publisher and Formatter components.
 Build image -   docker build  -t otexample_image . 
 
 The image can be checked by running      
-run -it --rm --name otexample otexample_image:latest lesson05.solution.Formatter bob 99f9848e8fd25a9e:99f9848e8fd25a9e:0:1 38c18dc3-7cda-49f6-9273-7c0d9120523f
+docker run -it --rm --name otexample otexample_image:latest lesson05.solution.Formatter bob 99f9848e8fd25a9e:99f9848e8fd25a9e:0:1 38c18dc3-7cda-49f6-9273-7c0d9120523f
 The second parameter here is the parent span context and the third is some diagnostic ID which can be used for tagging the spans.
 
 Build the Controller application 
